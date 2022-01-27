@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+  }
+  
+  .leftside {
+    flex: 50%;
+    display: inline;
+    background-color: white;
+    border-right: 2px grey dashed;
+  }
+  
+  .rightside {
+    flex: 50%;
+    display: inline;
+    background-color: white;
+  }
+  
+  .obesity {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #19AEC2;
+    text-align: center;
+  }
+  
+  .lorem {
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    padding-top: .6em;
+    color: rgb(131, 131, 131);
+    padding-left: 2.5em;
+    text-align: center;
+  }
+  
+  .lorem-header {
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 85%;
+    background-color: #1EA8BC;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 2.7em;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    border-left: antiquewhite dotted;
+    border-right: antiquewhite dotted;
+  }
+  
+  .portion {
+    display: flex;
+  }
+  
+  .portion-text {
+    flex: 50%;
+    padding-left: 3em;
+  }
+  
+  .portion-image {
+    flex: 50%;
+    padding-top: 2.5em;
+  }
+  
+  .increasing {
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #016372;
+  }
+  
+  .lorem-increase {
+    padding-top: .7em;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+  }
+  
+  .food-images {
+    display: flex;
+  }
+  
+  .fries {
+    flex: 33.33%;
+    padding-left: 3em;
+  }
+  
+  .donuts {
+    flex: 33.33%;
+    padding-top: 1.5em;
+  }
+  
+  .soda {
+    flex: 33.33%;
+    padding-top: 1.5em;
+  }
+  
+  .lorem-header-1 {
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 85%;
+    background-color: #1EA8BC;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 2.7em;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    border-left: antiquewhite dotted;
+    border-right: antiquewhite dotted;
+  }
+  
+  .people-info {
+    display: flex;
+    border-right: 2px grey dashed;
+  }
+  
+  .people-text {
+    flex: 20%;
+    padding-left: 3em;
+  }
+  
+  .nearly {
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #016372;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .five-hundred {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .million {
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #19AEC2;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pizza-slice {
+    flex: 18.75%;
+    padding-left:1em ;
+  }
+  
+  .sweet {
+    flex: 18.75%;
+    padding-top: .5em;
+  }
+  
+  .go-cup {
+    flex: 18.75%;
+  }
+  
+  .cone {
+    flex: 18.75%;
+  }
+  
+  .adults {
+    display: flex;
+    padding-top: 1.5em;
+    border-right: 2px grey dashed;
+  }
+  
+  .empty-space {
+    flex: 20%;
+  }
+  
+  .adults-info {
+    flex: 18.75%;
+  }
+  
+  .adults-text {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FBC014;
+    padding-left: .5em; 
+  }
+  
+  .sixty-five {
+    font-size: 3.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #016372;
+    text-align: right;
+  }
+  
+  .tiny-men-1 {
+    flex: 56.25%;
+    padding-left: 1em;
+  }
+  
+  .healthy {
+    font-size: 2.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #016372;
+    margin-left: 1.5em;
+    margin-top: .5em;
+  }
+  
+  .whole {
+    margin-left: 1.3em;
+    margin-top: 2.5em;
+    display: flex;
+  }
+  
+  .whole-grains {
+    flex: 15%;
+    font-size: 1.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+    padding-left: 1em;
+    text-align: center;
+  }
+  
+  .hundred-percent {
+    flex: 25%;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+  }
+  
+  .bread {
+    flex: 60%;
+  }
+  
+  .vegetables {
+    margin-left: 1.3em;
+    margin-top: 2.5em;
+    display: flex;
+  }
+  
+  .fruits {
+    flex: 25%;
+    font-size: 1.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+    padding-left: .2em;
+    text-align: center;
+  }
+  
+  .seventy-five-percent {
+    flex: 20%;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+  }
+  
+  .veggies {
+    flex: 55%;
+  }
+  
+  .meat {
+    margin-left: 1.3em;
+    margin-top: 2.5em;
+    display: flex;
+  }
+  
+  .fish {
+    flex: 30%;
+    font-size: 1.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+    padding-left: .2em;
+    text-align: center;
+  }
+  
+  .fifty-percent {
+    flex: 20%;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+  }
+  
+  .meat-image {
+    flex: 50%;
+  }
+  
+  .milk {
+    margin-left: 1.3em;
+    margin-top: 2.5em;
+    display: flex;
+  }
+  
+  .cheese {
+    flex: 35%;
+    font-size: 1.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+    padding-left: .2em;
+    text-align: center;
+  }
+  
+  .twenty-five-percent {
+    flex: 20%;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+  }
+  
+  .milk-image {
+    flex: 45%;
+  }
+  
+  .lorem-header-2 {
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 85%;
+    background-color: #1EA8BC;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 2.7em;
+    margin-top: 2.8em;
+    margin-bottom: 1.2em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    border-left: antiquewhite dotted;
+    border-right: antiquewhite dotted;
+  }
+  
+  .disease {
+    display: flex;
+    padding-top: 3em;
+  }
+  
+  .disease-image {
+    flex: 20%;
+    display: inline-block;
+    padding-left: 3em;
+  }
+  
+  .icon-images {
+    border-radius: 50%;
+    border: 4px lightblue solid;
+  }
+  
+  .disease-info {
+    flex: 80%;
+    display: inline-block;
+  }
+  
+  .disease-text {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #016372;
+  }
+  
+  .eight-lakh-people {
+    font-size: 1.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FBC014;
+    font-weight: bold;
+  }
+  
+  .lorem-small {
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19AEC2;
+    padding-right: 2em;
+  }
